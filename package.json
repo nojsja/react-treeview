@@ -1,6 +1,6 @@
 {
   "name": "react-treeview-semantic",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "React Tree View Component, Configurable, Customizable.",
   "main": "index.js",
   "scripts": {
@@ -16,10 +16,6 @@
     "tree",
     "semantic",
     "source"
-  ],
-  "files": [
-    "lib",
-    "README.md"
   ],
   "author": "nojsja",
   "license": "ISC",
