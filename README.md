@@ -6,10 +6,10 @@ _________________
 
 ```js
 // install
-npm install --save react-treeview;
+npm install --save react-treeview-semantic;
 
 // import
-import SourceTree from 'react-treeview';
+import SourceTree from 'react-treeview-semantic';
 
 // instantiation
 <SourceTree
