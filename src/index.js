@@ -79,7 +79,7 @@ TreeView.propTypes = {
   setActiveItem: PropTypes.func,  // 设置当前激活项 - [回调函数] - 非必要参数
 };
 
-SourceTree.defaultProps = {
+TreeView.defaultProps = {
   checkable: false,  // 默认不支持选中功能
   singleChecked: false,  // 选中状态下默认是单选
 }
