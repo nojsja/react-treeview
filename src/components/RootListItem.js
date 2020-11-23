@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { PropTypes } from 'prop-types';
 import {List, Icon, Input, Menu, Checkbox} from 'semantic-ui-react';
+import ListItem from './ListItem';
 
 /* ------------------- 资源树第一层根节点 ------------------- */
 export class RootListItem extends Component {

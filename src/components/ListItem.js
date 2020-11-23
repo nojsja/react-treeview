@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { PropTypes } from 'prop-types';
-import {List, Icon, Input, Menu, Checkbox} from 'semantic-ui-react';
+import { List, Icon, Input, Menu, Checkbox } from 'semantic-ui-react';
 
 /* ------------------- 资源树单个层级节点元素元素 ------------------- */
-export class ListItem extends Component {
+class ListItem extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -262,3 +262,5 @@ export class ListItem extends Component {
     )
   }
 };
+
+export default ListItem;
