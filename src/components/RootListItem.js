@@ -372,7 +372,9 @@ export class RootListItem extends Component {
   // 得到激活节点的数据
   setActiveItem = (item, flag) => {
     const { setActiveItem } = this.props;
-    setActiveItem(item, flag, this.state.name);
+    if (typeof setActiveItem === 'function') {
+      setActiveItem(item, flag, this.state.name);
+    }
   }
 
 
